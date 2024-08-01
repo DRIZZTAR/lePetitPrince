@@ -78,13 +78,11 @@ export const UI = ({ toggleEnvironment, showEnvironment }) => {
 		<>
 			<main className='pointer-events-none select-none z-10 fixed inset-0 flex justify-between flex-col'>
 				<div className='p-4 pointer-events-auto text-slate-700'>
-					<h1 className='text-4xl font-light'>
-						NINTENDO POWER
-					</h1>
+					<h1 className='text-4xl font-light'>Le Petit Prince</h1>
 					<p className='gradient-text text-xl font-thin'>
-						Special Edition
+						Antoine de Saint-Exupéry
 					</p>
-					<p className='text-xl font-thin'>1998</p>
+					<p className='text-xl font-thin'>April 6, 1943</p>
 					<a
 						className=' font-thin text-lg'
 						href='https://www.TysonSkakun.dev'
