@@ -58,7 +58,7 @@ export const Experience = () => {
 					intensity={15}
 					width={1.0}
 					height={1.3}
-					color='#ffaaff'
+					color='#ddddff'
 					position={[0, 0.55, -1.55]}
 					rotation={[0.1, Math.PI, 0]}
 				/>

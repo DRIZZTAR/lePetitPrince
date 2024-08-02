@@ -35,7 +35,7 @@ body {
 	margin: 0;
 	min-height: 100vh;
 	font-family: 'Poppins', sans-serif;
-	background: linear-gradient(200deg, #ff0000, #000000, #30c7e9, #5847c4);
+	background: linear-gradient(200deg, #ffffff, #000000, #dd6262, #6b55ff);
 	background-size: 400% 400%;
 	animation: gradientShift 18s ease infinite;
 	position: relative;
@@ -51,9 +51,9 @@ body::before {
 	bottom: -50%;
 	background: radial-gradient(
 		circle,
-		rgba(255, 255, 255, 0.8) 0%,
-		rgba(255, 255, 255, 0.2) 30%,
-		transparent 70%
+		rgb(229, 255, 0) 0%,
+		rgb(0, 0, 0) 25%,
+		transparent 60%
 	);
 	animation: glowPulse 18s infinite;
 	pointer-events: none;

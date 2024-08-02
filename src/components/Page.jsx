@@ -25,7 +25,7 @@ const easingFactor = 0.8; // Y axis
 const easingFactorFold = 0.3; // X axis
 const insideCurveStrength = 0.16;
 const outsideCurveStrength = 0.08;
-const turningCurveStrentgh = 0.09;
+const turningCurveStrentgh = 0.19;
 const emissiveIntensityPower = 0.3;
 const openedPageSpread = 1.5;
 
@@ -141,6 +141,7 @@ export default function Page({
 					: {
 							roughness: 0.3,
 							metalness: 0.3,
+							
 					  }),
 				emissive: emissiveColor,
 				emissiveIntensity: 0,

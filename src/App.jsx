@@ -10,6 +10,7 @@ import {
 	DotScreen,
 	Vignette,
 	ColorAverage,
+	Sepia,
 } from '@react-three/postprocessing';
 import { Analytics } from '@vercel/analytics/react';
 import { BlendFunction } from 'postprocessing';
@@ -84,9 +85,11 @@ function App() {
 					</group>
 					<EffectComposer>
 						<Vignette eskil={true} offset={0.6} darkness={2} />
-						<ColorAverage
+						{/* <ColorAverage
 							blendFunction={BlendFunction.OVERLAY} // blend mode
-						/>
+						/>{' '} */}
+						{/* Metal page effect*/}
+						{/* <Sepia blendFunction={BlendFunction.OVERLAY} /> */}
 					</EffectComposer>
 				</PerformanceMonitor>
 			</Canvas>
