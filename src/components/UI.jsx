@@ -129,29 +129,64 @@ export const UI = ({ toggleEnvironment, showEnvironment }) => {
 			<div className={`menu ${menuOpen ? 'active' : ''}`}>
 				<div className='menu-close' onClick={closeMenu}></div>
 				<div className='menu-content p-10'>
-					<div className='menu-item font-extrabold'>
+										<div className='menu-item'>
 						<a
-							href='https://www.linkedin.com/in/tyson-skakun-tail/'
+							href='https://vogue-silk.vercel.app/'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							Hire Me
+							Vogue, 2021
 						</a>
 					</div>
-					<div className='menu-item font-bold'>
-						{' '}
+					<div className='menu-item'>
+						<a
+							href='https://dragon-ball-three.vercel.app/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							DragonBall
+						</a>
+					</div>
+					<div className='menu-item'>
+						<a
+							href='https://link-to-the-past.vercel.app/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							Link to The Past Manual
+						</a>
+					</div>
+					<div className='menu-item'>
 						<a
 							href='https://batman-omega.vercel.app/'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							See Another Book
+							Batman Issue #01
 						</a>
 					</div>
-					<div className='menu-item font-bold'>Caught Em all?</div>
-					<div className='menu-item font-bold'>Catch Em Again</div>
+					<div className='menu-item font-bold'>
+						<a
+							href='https://nintendo-power-pokemon.vercel.app/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							Nintendo Power
+						</a>
+					</div>
+					<div className='menu-item font-extrabold'>
+						<div className='group'>
+							<a
+								href='https://www.TysonSkakun.dev/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								Personal Site
+							</a>
+						</div>
+						</div>
+					</div>
 				</div>
-			</div>
 		</>
 	);
 };
