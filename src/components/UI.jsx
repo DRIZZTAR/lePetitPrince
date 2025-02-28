@@ -77,19 +77,16 @@ export const UI = ({ toggleEnvironment, showEnvironment }) => {
 	return (
 		<>
 			<main className='pointer-events-none select-none z-10 fixed inset-0 flex justify-between flex-col'>
-				<div className='p-4 pointer-events-auto text-slate-700'>
-					<h1 className='text-4xl font-light'>Le Petit Prince</h1>
-					<p className='gradient-text text-xl font-thin'>
+				<div className='p-4 pointer-events-auto text-slate-800'>
+					<h1 className='text-4xl font-thin tracking-wide mb-2'>
+						Le Petit Prince
+					</h1>
+					<p className='text-xl font-medium text-slate-600 mb-1'>
 						Antoine de Saint-Exupéry
 					</p>
-					<p className='text-xl font-thin'>April 6, 1943</p>
-					<a
-						className=' font-thin text-lg'
-						href='https://www.TysonSkakun.dev'
-						target='_blank'
-					>
-						TysonSkakun.Dev
-					</a>
+					<p className='text-lg font-light italic text-slate-500'>
+						April 6, 1943
+					</p>
 				</div>
 				<div className='w-full font-inter overflow-auto pointer-events-auto flex justify-center'>
 					<div className='overflow-auto flex items-center gap-4 max-w-full p-5'>

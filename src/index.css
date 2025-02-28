@@ -51,8 +51,8 @@ body::before {
 	bottom: -50%;
 	background: radial-gradient(
 		circle,
-		rgb(229, 255, 0) 0%,
-		rgb(0, 0, 0) 25%,
+		rgb(208, 255, 0) 0%,
+		rgb(255, 255, 255) 25%,
 		transparent 60%
 	);
 	animation: glowPulse 18s infinite;
@@ -81,6 +81,7 @@ body::after {
 	background: linear-gradient(200deg, #ff0000, #000000, #30c7e9, #5847c4);
 	background-size: 400% 400%;
 	animation: gradientShift 18s ease infinite;
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -105,9 +106,8 @@ body::after {
 .hamburger div {
 	width: 100%;
 	height: 4px;
-	background: linear-gradient(200deg, #ff0000, #000000, #30c7e9, #5847c4);
+	background: #000000;
 	background-size: 400% 400%;
-	animation: gradientShift 18s ease infinite;
 	border-radius: 10px;
 	transition: all 0.5s ease;
 }
